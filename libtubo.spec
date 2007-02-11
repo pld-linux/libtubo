@@ -19,6 +19,7 @@ The libtubo library is small and simple function set to enable a
 process to run any other process in the background and communicate via
 the stdout, stderr and stdin.
 
+%description -l pl
 Biblioteka libtubo jest ma³ym i prostym zbiorem funkcji, które
 pozwalaj± procesom uruchomiæ w tle inny proces i komunikowaæ siê
 poprzez stdout, stderr i stdin.
