@@ -1,5 +1,5 @@
 Summary:	Interprocess communication library
-Summary(pl):	Biblioteka komunikacji miÍdzyprocesowej
+Summary(pl.UTF-8):   Biblioteka komunikacji miƒôdzyprocesowej
 Name:		libtubo
 Version:	4.5.0
 Release:	1
@@ -19,14 +19,14 @@ The libtubo library is small and simple function set to enable a
 process to run any other process in the background and communicate via
 the stdout, stderr and stdin.
 
-%description -l pl
-Biblioteka libtubo jest ma≥ym i prostym zbiorem funkcji, ktÛre
-pozwalaj± procesom uruchomiÊ w tle inny proces i komunikowaÊ siÍ
+%description -l pl.UTF-8
+Biblioteka libtubo jest ma≈Çym i prostym zbiorem funkcji, kt√≥re
+pozwalajƒÖ procesom uruchomiƒá w tle inny proces i komunikowaƒá siƒô
 poprzez stdout, stderr i stdin.
 
 %package devel
 Summary:	Header files for libtubo library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libtubo
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libtubo
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 1:2.6.0
@@ -34,19 +34,19 @@ Requires:	glib2-devel >= 1:2.6.0
 %description devel
 Header files for libtubo library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libtubo.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libtubo.
 
 %package static
 Summary:	Static libtubo library
-Summary(pl):	Statyczna biblioteka libtubo
+Summary(pl.UTF-8):   Statyczna biblioteka libtubo
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libtubo library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libtubo.
 
 %prep
