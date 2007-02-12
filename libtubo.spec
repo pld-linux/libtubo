@@ -1,5 +1,5 @@
 Summary:	Interprocess communication library
-Summary(pl.UTF-8):   Biblioteka komunikacji międzyprocesowej
+Summary(pl.UTF-8):	Biblioteka komunikacji międzyprocesowej
 Name:		libtubo
 Version:	4.5.0
 Release:	1
@@ -26,7 +26,7 @@ poprzez stdout, stderr i stdin.
 
 %package devel
 Summary:	Header files for libtubo library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libtubo
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libtubo
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	glib2-devel >= 1:2.6.0
@@ -39,7 +39,7 @@ Pliki nagłówkowe biblioteki libtubo.
 
 %package static
 Summary:	Static libtubo library
-Summary(pl.UTF-8):   Statyczna biblioteka libtubo
+Summary(pl.UTF-8):	Statyczna biblioteka libtubo
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
